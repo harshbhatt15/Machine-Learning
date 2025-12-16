@@ -6,18 +6,18 @@ A Supervised Machine Learning Study
 
 
 
+
+
 #### 📖 Overview
 
 This project demonstrates the implementation and analysis of the K-Nearest Neighbors (K-NN) algorithm for a classification problem.
 K-NN is a non-parametric, instance-based learning algorithm that classifies data points based on similarity with neighboring samples in the feature space.
-
 The project focuses on:
-
 Understanding the working principle of K-NN
-
 Applying proper preprocessing and feature scaling
-
 Evaluating classification performance using standard metrics
+
+
 
 
 
@@ -42,6 +42,8 @@ n is the number of input features
 
 
 
+
+
 #### 📂 Dataset Description
 
 Type: Structured tabular data
@@ -56,19 +58,18 @@ The dataset is suitable for distance-based learning and highlights the importanc
 
 
 
+
+
 #### 🔍 Exploratory Data Analysis (EDA)
 
 The following EDA steps were performed:
+-Dataset inspection using `info()` and `describe()`
+-Checking for missing values
+-Understanding feature distributions
+-Identifying potential class imbalance
+-EDA helps ensure that the dataset is clean, interpretable, and ready for modeling.
 
-Dataset inspection using info() and describe()
 
-Checking for missing values
-
-Understanding feature distributions
-
-Identifying potential class imbalance
-
-EDA helps ensure that the dataset is clean, interpretable, and ready for modeling.
 
 
 
@@ -77,14 +78,12 @@ EDA helps ensure that the dataset is clean, interpretable, and ready for modelin
 #### ⚙️ Data Preprocessing
 
 Preprocessing steps include:
+-Feature–target separation
+-Train–test split
+-Feature scaling using StandardScaler
+-Scaling is critical because K-NN relies on distance calculations.
 
-Feature–target separation
 
-Train–test split
-
-Feature scaling using StandardScaler
-
-Scaling is critical because K-NN relies on distance calculations.
 
 
 
@@ -92,37 +91,29 @@ Scaling is critical because K-NN relies on distance calculations.
 #### 📊 Model Training & Evaluation
 
 The model is evaluated using:
+*Accuracy Score*
+*Confusion Matrix*
+*Classification Report*
+*Precision*
+*Recall*
+*F1-Score*
+*These metrics provide insight into both overall performance and class-wise behavior.*
 
-Accuracy Score
 
-Confusion Matrix
-
-Classification Report
-
-Precision
-
-Recall
-
-F1-Score
-
-These metrics provide insight into both overall performance and class-wise behavior.
 
 
 
 
 #### 🛠️ Technologies Used
 
-Python
+-Python
+-NumPy
+-Pandas
+-Scikit-learn
+-Matplotlib
+-Jupyter Notebook
 
-NumPy
 
-Pandas
-
-Scikit-learn
-
-Matplotlib
-
-Jupyter Notebook
 
 
 
@@ -130,7 +121,5 @@ Jupyter Notebook
 #### 👨‍🎓 Author
 
 Harsh Bhatt
-
 Bachelor of Computer Applications (BCA)
-
 Machine Learning Enthusiast

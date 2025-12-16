@@ -105,3 +105,11 @@ This confirms the suitability of **Logistic Regression** for this problem.
 - Jupyter Notebook  
 
 ---
+
+### 👨‍🎓 Author
+
+Harsh Bhatt
+
+Bachelor of Computer Applications (BCA)
+
+Machine Learning & Data Science Enthusiast

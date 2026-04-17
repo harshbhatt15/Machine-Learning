@@ -117,16 +117,6 @@ Purpose:
 
 ---
 
-## How to Run
-
-1. Install required libraries:
-
-   pip install pandas matplotlib scikit-learn
-
-2. Run the Python script or Jupyter Notebook
-
----
-
 ## Conclusion
 
 - Lasso Regression is effective for housing price prediction

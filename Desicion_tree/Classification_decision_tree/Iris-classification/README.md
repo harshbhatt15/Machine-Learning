@@ -18,7 +18,7 @@ using accuracy and a classification report.
 Dataset Used:
 - Iris Dataset (sklearn.datasets.load_iris)
 
-Classes:
+Classes:Types
 - Setosa
 - Versicolor
 - Virginica

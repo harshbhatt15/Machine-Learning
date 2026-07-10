@@ -60,8 +60,6 @@ Preprocessing steps include:
 - Train–test split  
 - Feature scaling using **StandardScaler**  
 
-📌 Scaling is critical because K-NN relies on **distance calculations**.
-
 ---
 
 ## 📊 Model Training & Evaluation
